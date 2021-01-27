@@ -1,14 +1,15 @@
-.gray {
-  background-color: gray;
-  height: 170px;
+/*page d'accueil*/
+
+.article {
+  margin-top: 20px;
 }
 
 .title {
   margin-top: 20px;
 }
 
-.article {
-  margin-top: 20px;
+.active {
+  color: rgba(36, 23, 206, 0.966);
 }
 
 .pad {
@@ -35,6 +36,14 @@ ul {
   top: -10px;
 }
 
+
+/*page accueil + actualité*/
+
+.gray {
+  background-color: gray;
+  height: 170px;
+}
+
 @media screen and (max-width: 992px) {
   .banner {
     height: 300%;
@@ -47,3 +56,26 @@ ul {
   position: relative;
   top: -10px;
 }
+
+
+/*page d'actualité*/
+
+.DJI, .p, h3{
+  padding: 19px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+}
+
+.btn {
+  margin-top: -30px;
+}
+
+/*.p, h3 {
+  width: 300px;
+}
+
+
