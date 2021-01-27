@@ -1,0 +1,49 @@
+.gray {
+  background-color: gray;
+  height: 170px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.article {
+  margin-top: 20px;
+}
+
+.pad {
+  padding: 30px;
+}
+
+.position {
+  padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+  color: black;
+}
+
+.text {
+  text-decoration: none;
+  
+}
+
+.text1 {
+  margin-bottom: 10px;
+  position: relative;
+  top: -10px;
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    height: 300%;
+    background-color: gray;
+    text-align: center;
+  }
+} 
+
+.same {
+  position: relative;
+  top: -10px;
+}
